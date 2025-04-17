@@ -13,7 +13,7 @@ export function Navbar(){
                 <Link to='/'>Home</Link>
             </li>
             <li>
-                <Link to='/course'>Course</Link>
+                <Link to='/register'>Course</Link>
             </li>
             <li>
                 <a>Contact</a>

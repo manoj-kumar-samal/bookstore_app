@@ -15,7 +15,7 @@ export default function Banner(){
                     <input type="email" placeholder="mail@site.com" required/>
                 </label>
                 <div className="validator-hint hidden">Enter valid email address</div>
-                <button className="btn btn-secondary mt-6">Secondary</button>
+                <button className="btn btn-secondary mt-6">Get Started</button>
             </div>
             <div className="order-1 w-full md:w-1/2">
                 <img src={banner} className='w-125 h-125'></img>
