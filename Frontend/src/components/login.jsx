@@ -27,6 +27,7 @@ export default function Login(){
                     console.log(value.password)
                     if(userDetails.password===value.password){
                         toast.success('Loggedin Successful!');
+                        sessionStorage.setItem("email",value.email)
                         navigate('/course');
                     }else{
                         toast.error('Invalid-Password!');
